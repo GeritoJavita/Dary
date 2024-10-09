@@ -25,13 +25,18 @@ header {
     color: #ff7043;
 }
 
-#catalogo h2 {
+#catalogo h2, #about h2, #contacto h2 {
     color: #ffb6b9;
 }
 
 .card {
     border: none;
     background-color: #fff3e0;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-title {
@@ -46,10 +51,19 @@ footer a {
     margin: 0 10px;
 }
 
-footer img {
-    filter: grayscale(100%);
+footer a img {
+    transition: transform 0.2s;
 }
 
-footer img:hover {
-    filter: none;
+footer a img:hover {
+    transform: scale(1.1);
+}
+
+button, .btn-primary {
+    background-color: #ff8a65;
+    border: none;
+}
+
+button:hover, .btn-primary:hover {
+    background-color: #ff7043;
 }
