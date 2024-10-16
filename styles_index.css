@@ -9,6 +9,12 @@
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
+@font-face {
+    font-family: 'Subtitulos'; /* Cambia esto por el nombre que desees para la fuente */
+    src: url('fonts/gyahegi/Gyahegi.otf') format('truetype'); /* Cambia el nombre del archivo */
+    font-weight: normal; /* O puede ser bold, si es el caso */
+    font-style: normal; /* O italic, si es el caso */
+}
 
 /* Estilos generales */
 body {
@@ -60,7 +66,7 @@ header h1:hover {
 
 /* Subtítulo o descripción del header */
 header p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Subtitulos', sans-serif;
     font-size: 1.3rem;
     color: #3d3d3d; /* Color oscuro para mejor contraste */
     margin-top: 10px;
