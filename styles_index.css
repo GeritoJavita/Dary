@@ -1,3 +1,4 @@
+/* Header Styling */
 header {
     background: url('geritoydy.jpeg') no-repeat center center;
     background-size: cover;
@@ -7,6 +8,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: #fce4ec; /* Color de respaldo */
 }
 
 /* Overlay Effect */
@@ -20,10 +22,11 @@ header::before {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-header h1,
-header p {
+/* Header Content */
+header h1, header p {
     position: relative;
     z-index: 2;
+    color: #333; /* Color para el texto */
 }
 
 /* Navbar Custom Styling */
@@ -38,17 +41,23 @@ header p {
     background-color: #eaeaea;
 }
 
-/* Smooth Transition for Navbar Links */
-.nav-link {
+/* Navbar Links */
+.navbar-light .navbar-brand {
+    color: #ffccbc;
+    font-weight: bold;
+}
+
+.navbar-light .nav-link {
     font-size: 1.1rem;
+    color: #ffab91;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #ff6f61;
+    color: #ff7043;
 }
 
-/* Button Animations */
+/* Button Styling */
 .btn-primary {
     background-color: #ff6f61;
     border: none;
@@ -60,59 +69,38 @@ header p {
     transform: scale(1.05);
 }
 
-/* Category Card Animation */
+/* Category Cards */
 .card {
+    border: none;
+    background-color: #fff3e0;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fafafa;
-}
-
-h1, h2, h5, p {
-    color: #333;
-}
-
-header {
-    background-color: #fce4ec;
-    color: #333;
-}
-
-.navbar-light .navbar-brand {
-    color: #ffccbc;
-    font-weight: bold;
-}
-
-.navbar-light .nav-link {
-    color: #ffab91;
-}
-
-.nav-link:hover {
-    color: #ff7043;
-}
-
-#catalogo h2, #about h2, #contacto h2 {
-    color: #ffb6b9;
-}
-
-.card {
-    border: none;
-    background-color: #fff3e0;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
 }
 
 .card-title {
     color: #ff8a65;
 }
 
+/* Global Body and Text Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+h1, h2, h5, p {
+    color: #333;
+}
+
+#catalogo h2, #about h2, #contacto h2 {
+    color: #ffb6b9;
+}
+
+/* Footer Styling */
 footer {
     background-color: #fce4ec;
 }
@@ -129,6 +117,7 @@ footer a img:hover {
     transform: scale(1.1);
 }
 
+/* General Button Styling */
 button, .btn-primary {
     background-color: #ff8a65;
     border: none;
