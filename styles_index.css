@@ -3,6 +3,13 @@
 /* Importar fuentes modernas */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Great+Vibes&display=swap');
 
+@font-face {
+    font-family: 'DARY'; /* Cambia esto por el nombre que desees para la fuente */
+    src: url('fonts/Belgiano\ Serif\ 2.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    font-weight: normal; /* O puede ser bold, si es el caso */
+    font-style: normal; /* O italic, si es el caso */
+}
+
 /* Estilos generales */
 body {
     font-family: 'Poppins', sans-serif;
@@ -37,7 +44,7 @@ header::before {
 
 /* Título principal del header */
 header h1 {
-    font-family: 'Great Vibes', cursive; /* Tipografía elegante */
+    font-family: 'DARY', cursive; /* Tipografía elegante */
     font-size: 4rem;
     color: #4e4b41; /* Color marrón suave */
     z-index: 2;
