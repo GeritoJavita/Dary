@@ -1,17 +1,29 @@
 /* Header Styling */
+/* Tipografía Moderna */
+/* Importar fuentes modernas */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Great+Vibes&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf2f8;
+}
+
+/* Header */
 header {
-    
+    background: url('geritoydy.jpeg') no-repeat center center;
     background-size: cover;
     color: white;
     height: 60vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: #fce4ec; /* Color de respaldo */
+    text-align: center;
 }
 
-/* Overlay Effect */
+/* Overlay para mejorar el contraste */
 header::before {
     content: "";
     position: absolute;
@@ -19,15 +31,63 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 182, 193, 0.5); /* Pastel rosa suave */
+    z-index: 1;
 }
 
-/* Header Content */
-header h1, header p {
+/* Título principal del header */
+header h1 {
+    font-family: 'Great Vibes', cursive; /* Tipografía elegante */
+    font-size: 4rem;
+    color: #5c4e50; /* Tono pastel rosa */
+    z-index: 2;
+    transition: all 0.4s ease-in-out;
+}
+
+header h1:hover {
+    color: #ff80ab; /* Cambiar a rosa más fuerte al hover */
+    transform: scale(1.1);
+    letter-spacing: 1px; /* Un pequeño espaciado en las letras */
+    text-shadow: 4px 4px 8px rgba(255, 192, 203, 0.4); /* Sombra suave rosa */
+}
+
+/* Subtítulo o descripción del header */
+header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: #131212;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+/* Botón del header */
+header .btn-primary {
+    background-color: #ffc1e3;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    z-index: 2;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .btn-primary:hover {
+    background-color: #ff80ab; /* Tono pastel más fuerte */
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(255, 192, 203, 0.3); /* Sombra más visible */
+}
+
+/* Mejora del contraste para el texto */
+header h1,
+header p {
     position: relative;
     z-index: 2;
-    color: #333; /* Color para el texto */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15); /* Añadir un ligero sombreado al texto */
 }
+
+
 
 /* Navbar Custom Styling */
 .navbar {
