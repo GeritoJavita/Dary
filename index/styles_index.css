@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'DARY'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('/staylista/Stalysta_personal\ use.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('C:\Users\Administrador\Dary\Dary\index\staylista\Stalysta_personal use.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
