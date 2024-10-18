@@ -9,13 +9,19 @@
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
+
 @font-face {
     font-family: 'Subtitulos'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('fonts/gyahegi/Gyahegi.otf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('fonts/gyahegi/Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
-
+@font-face {
+    font-family: 'boton'; /* Cambia esto por el nombre que desees para la fuente */
+    src: url('fonts/elegante_classica/Elegante\ Classica.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    font-weight: normal; /* O puede ser bold, si es el caso */
+    font-style: normal; /* O italic, si es el caso */
+}
 /* Estilos generales */
 body {
     font-family: 'Poppins', sans-serif;
@@ -75,8 +81,9 @@ header p {
 
 /* Botón del header */
 header .btn-primary {
-    background-color: #a8d5ba; /* Verde pastel suave */
+    background-color: #7dcea0; /* Verde pastel suave */
     color: white;
+    font-family: 'boton', sans-serif;
     border: none;
     padding: 12px 30px;
     font-size: 1.2rem;
@@ -84,11 +91,13 @@ header .btn-primary {
     z-index: 2;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
 }
 
 header .btn-primary:hover {
-    background-color: #6b8e23; /* Tono verde más fuerte */
+    background-color: #678a23; /* Tono verde más fuerte */
     transform: scale(1.05);
+   
     box-shadow: 0px 8px 15px rgba(118, 178, 162, 0.3); /* Sombra más visible */
 }
 
@@ -105,6 +114,8 @@ header p {
     background-color: #f1f1f1; /* Color claro para la navbar */
     padding: 1rem 2rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'boton',sans-serif;
+    font-size: 20px;
     transition: background-color 0.3s ease-in-out;
 }
 
