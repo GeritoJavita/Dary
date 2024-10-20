@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Subtitulos'; /* Cambia esto por el nombre que desees para la fuente */
+    src: url('Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    font-weight: normal; /* O puede ser bold, si es el caso */
+    font-style: normal; /* O italic, si es el caso */
+}
 #imagen-about {
     width: 400px; /* Ajusta el tamaño de la imagen */
     height:  400px; /* Asegura que la imagen sea circular */
