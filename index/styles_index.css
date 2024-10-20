@@ -13,13 +13,13 @@
 
 @font-face {
     font-family: 'Subtitulos'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('/gyahegi/Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
 @font-face {
     font-family: 'boton'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('/elegante_classica/Elegante\ Classica.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('Elegante\ Classica.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
