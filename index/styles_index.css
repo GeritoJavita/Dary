@@ -42,18 +42,7 @@ header {
     position: relative;
     text-align: center;
 }
-#imagen-about {
-    width: 400px; /* Ajusta el tamaño de la imagen */
-    height:  400px; /* Asegura que la imagen sea circular */
-    border: 5px solid #cccccc; /* Añade un borde alrededor de la imagen */
-    
-    object-fit: cover; /* Mantiene el contenido centrado en el círculo */
-    margin: 0 auto 10px auto; /* Centra la imagen y agrega margen inferior */
-}
-#about h2{
-    font-family: "Subtitulos";
-    padding-bottom: 50px;
-}
+
 /* Overlay para mejorar el contraste */
 header::before {
     content: "";
