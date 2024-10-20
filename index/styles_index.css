@@ -10,6 +10,7 @@
     font-style: normal; /* O italic, si es el caso */
 }
 
+
 @font-face {
     font-family: 'Subtitulos'; /* Cambia esto por el nombre que desees para la fuente */
     src: url('/gyahegi/Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
