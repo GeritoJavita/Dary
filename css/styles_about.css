@@ -160,6 +160,21 @@ body {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
 }
 /* Ajustes para pantallas pequeñas */
+.floral-deco {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Espacio entre el logo y la decoración */
+}
+
+.flower {
+    margin-left: 10px; /* Espacio entre flores */
+    transition: transform 0.3s ease;
+}
+
+.flower:hover {
+    transform: scale(1.2); /* Efecto de hover para aumentar el tamaño */
+}
+
 @media (max-width: 768px) {
     /* Título principal de la sección */
     #about h2 {
@@ -203,22 +218,4 @@ body {
     #instagram-button {
         padding: 10px; /* Ajusta el tamaño del botón en móviles */
     }
-}
-.tote-bag-deco {
-    display: flex;
-    align-items: center;
-    margin-left: 20px; /* Espacio entre el logo y la decoración */
-}
-
-.tote-bag-deco svg {
-    transition: transform 0.3s ease;
-}
-
-.tote-bag-deco:hover svg {
-    transform: scale(1.1); /* Efecto de hover */
-}
-
-.tote-bag-text {
-    margin-left: 5px; /* Espacio entre el ícono y el texto */
-    font-weight: bold; /* Para destacar el texto */
 }
