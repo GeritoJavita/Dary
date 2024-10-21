@@ -159,40 +159,25 @@ body {
 .bg-sobre-nosotros {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
 }
-footer {
-    background-color: #f7f7f7; /* Color de fondo del footer */
-    padding: 20px 0; /* Espaciado superior e inferior */
+/* Ajustes para limitar el tamaño de las imágenes en el carrusel */
+#footerCarousel .carousel-item img {
+    max-height: 500px; /* Limita la altura máxima de la imagen */
+    object-fit: cover; /* Ajusta la imagen para que siempre quepa dentro del contenedor sin distorsionarse */
+    width: 100%; /* Mantiene el ancho completo del carrusel */
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover; /* Asegura que las imágenes se ajusten bien */
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el texto */
-    color: white; /* Color del texto */
-    padding: 15px; /* Espaciado interno */
-    bottom: 30px; /* Ajustar la posición vertical del texto */
-}
-
+/* Ajustes para los subtítulos */
 .carousel-caption h5 {
-    font-size: 1.5rem; /* Ajusta el tamaño del título */
+    font-size: 1.75rem; /* Tamaño del título */
+    color: #ffffff; /* Color del texto del título */
 }
 
 .carousel-caption p {
-    font-size: 1rem; /* Ajusta el tamaño del subtítulo */
+    font-size: 1.2rem; /* Tamaño del subtítulo */
+    color: #eeeeee; /* Color del texto del subtítulo */
 }
 
-/* Estilos para dispositivos móviles */
 
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: #df356d; /* Color de los controles */
-    border-radius: 50%; /* Hacerlos circulares */
-}
 
 .text-center p {
     margin: 0; /* Eliminar margen */
