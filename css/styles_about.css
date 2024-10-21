@@ -165,15 +165,37 @@ footer {
 }
 
 .carousel-inner img {
-    width: auto;
-    height:auto; /* Altura máxima para las imágenes del carrusel */
+    max-height: 200px; /* Ajusta la altura máxima para las imágenes del carrusel */
     object-fit: cover; /* Asegura que las imágenes se ajusten bien */
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
     color: white; /* Color del texto */
-    padding: 15px; /* Espaciado interno */
+    padding: 10px; /* Espaciado interno */
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem; /* Ajusta el tamaño del título */
+}
+
+.carousel-caption p {
+    font-size: 0.9rem; /* Ajusta el tamaño del subtítulo */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        max-height: 150px; /* Altura máxima para imágenes en móviles */
+    }
+    
+    .carousel-caption h5 {
+        font-size: 1.2rem; /* Tamaño del título en móviles */
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem; /* Tamaño del subtítulo en móviles */
+    }
 }
 
 .carousel-control-prev-icon,
