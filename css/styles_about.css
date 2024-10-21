@@ -188,7 +188,8 @@ footer {
     color: #ffffff; /* Texto blanco */
 }
 
-footer h5 {
+footer h2 {
+    font-family: Subtitulos;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     color: #f8f9fa;
