@@ -167,10 +167,11 @@ body {
 .carousel-inner img {
     
     height: 500px; /* Ajusta la altura de las imágenes del carrusel */
-    object-fit: cover; /* Para que las imágenes mantengan su proporción y se adapten */
+    object-fit: contain; /* Para que las imágenes mantengan su proporción y se adapten */
 }
 
-.carousel-caption h5 {
+.carousel-caption h2 {
+    font-family: "Subtitulos";
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -189,14 +190,14 @@ footer {
 }
 
 footer h2 {
-    font-family: "Subtitulos";
-    font-size: 1.8rem;
+    
+    font-size: 1.1rem;
     margin-bottom: 0.5rem;
     color: #f8f9fa;
 }
 
 footer p {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
     margin-bottom: 0.5rem;
 }
 
