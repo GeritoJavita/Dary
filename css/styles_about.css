@@ -159,31 +159,46 @@ body {
 .bg-sobre-nosotros {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
 }
-/* Ajustes para limitar el tamaño de las imágenes en el carrusel */
-#footerCarousel .carousel-item img {
-    max-height: 500px; /* Limita la altura máxima de la imagen */
-    object-fit: cover; /* Ajusta la imagen para que siempre quepa dentro del contenedor sin distorsionarse */
-    width: 100%; /* Mantiene el ancho completo del carrusel */
+/* Estilos para el carrusel */
+#carouselSection {
+    background-color: #f8f9fa;
 }
 
-/* Ajustes para los subtítulos */
+.carousel-item img {
+    height: 500px; /* Ajusta la altura de las imágenes del carrusel */
+    object-fit: cover; /* Para que las imágenes mantengan su proporción y se adapten */
+}
+
 .carousel-caption h5 {
-    font-size: 1.75rem; /* Tamaño del título */
-    color: #ffffff; /* Color del texto del título */
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .carousel-caption p {
-    font-size: 1.2rem; /* Tamaño del subtítulo */
-    color: #eeeeee; /* Color del texto del subtítulo */
+    font-size: 1.1rem;
+}
+
+/* Estilo responsivo para el carrusel */
+
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+footer h5 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #f8f9fa;
+}
+
+footer p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 
-
-.text-center p {
-    margin: 0; /* Eliminar margen */
-    color: #555; /* Color del texto de copyright */
-    font-size: 0.9rem; /* Tamaño de texto */
-}
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
