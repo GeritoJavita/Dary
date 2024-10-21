@@ -31,7 +31,7 @@ body {
 
 /* Header */
 header {
-    background: url('/Dary/img/portada2.jpg') no-repeat center center;
+    background: url('/Dary/img/portada2.png') no-repeat center center;
     background-size: cover;
     color: white;
     height: 60vh;
@@ -51,7 +51,6 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-   
     z-index: 1;
 }
 
