@@ -37,7 +37,7 @@
 
 /* Tarjetas del proceso */
 .card {
-    padding: 10px;
+
     border: none; /* Sin bordes para las tarjetas */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
 }
@@ -158,4 +158,49 @@ body {
 /* Sección Sobre Nosotros */
 .bg-sobre-nosotros {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
+}
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Título principal de la sección */
+    #about h2 {
+        font-size: 1.8rem; /* Reduce el tamaño en móviles */
+        padding-bottom: 30px; /* Reduce el padding */
+    }
+
+    /* Títulos de las subsecciones */
+    #about h3 {
+        font-size: 1.5rem; /* Reduce el tamaño en móviles */
+        padding-bottom: 20px; /* Reduce el padding */
+    }
+
+    /* Ajustes generales de párrafos */
+    #about p {
+        font-size: 0.9rem; /* Reduce el tamaño del texto en móviles */
+        line-height: 1.5; /* Aumenta el espacio entre líneas */
+    }
+
+    /* Tarjetas del proceso */
+    .card {
+        margin: 10px; /* Añade margen entre tarjetas */
+    }
+
+    /* Sección de Valores de la Marca */
+    .card.bg-light {
+        margin-bottom: 10px; /* Espacio inferior entre tarjetas */
+    }
+    
+    /* Navbar */
+    .navbar {
+        padding: 0.5rem 1rem; /* Ajusta el padding de la navbar */
+    }
+
+    .navbar .nav-link {
+        font-size: 0.9rem; /* Reduce el tamaño de fuente de los enlaces */
+        padding-right: 15px; /* Ajusta el padding */
+    }
+
+    /* Botón de Instagram */
+    #instagram-button {
+        padding: 10px; /* Ajusta el tamaño del botón en móviles */
+    }
 }
