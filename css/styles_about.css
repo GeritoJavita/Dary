@@ -159,30 +159,6 @@ body {
 .bg-sobre-nosotros {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
 }
-/* Estilos para el carrusel */
-#carouselSection {
-    background-color: #f8f9fa;
-}
-
-.carousel-inner img {
-    
-    height: 500px; /* Ajusta la altura de las imágenes del carrusel */
-    object-fit: contain; /* Para que las imágenes mantengan su proporción y se adapten */
-}
-
-.carousel-caption h2 {
-    font-family: "Subtitulos";
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-.carousel-caption p {
-    font-size: 1.1rem;
-}
-
-/* Estilo responsivo para el carrusel */
-
-
 /* Footer */
 footer {
     background-color: #343a40; /* Fondo oscuro */
@@ -191,13 +167,13 @@ footer {
 
 footer h2 {
     
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     color: #f8f9fa;
 }
 
 footer p {
-    font-size: 0.6rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
