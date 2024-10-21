@@ -37,6 +37,7 @@
 
 /* Tarjetas del proceso */
 .card {
+    padding: 10px;
     border: none; /* Sin bordes para las tarjetas */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
 }
