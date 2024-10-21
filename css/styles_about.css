@@ -165,7 +165,8 @@ body {
 }
 
 .carousel-item img {
-    height: 500px; /* Ajusta la altura de las imágenes del carrusel */
+    
+    height: 600px; /* Ajusta la altura de las imágenes del carrusel */
     object-fit: cover; /* Para que las imágenes mantengan su proporción y se adapten */
 }
 
