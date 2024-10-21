@@ -164,9 +164,9 @@ body {
     background-color: #f8f9fa;
 }
 
-.carousel-item img {
+.carousel-inner img {
     
-    height: 600px; /* Ajusta la altura de las imágenes del carrusel */
+    height: 500px; /* Ajusta la altura de las imágenes del carrusel */
     object-fit: cover; /* Para que las imágenes mantengan su proporción y se adapten */
 }
 
@@ -189,7 +189,7 @@ footer {
 }
 
 footer h2 {
-    font-family: Subtitulos;
+    font-family: "Subtitulos";
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     color: #f8f9fa;
@@ -247,7 +247,7 @@ footer p {
         padding: 10px; /* Ajusta el tamaño del botón en móviles */
     }
     .carousel-inner img {
-        max-height: 200px; /* Altura máxima para imágenes en móviles */
+        height: 390px; /* Altura máxima para imágenes en móviles */
     }
     
     .carousel-caption h5 {
