@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'DARY'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('Stalysta_personal use.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('/Dary/css/Stalysta_personal use.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
@@ -13,13 +13,13 @@
 
 @font-face {
     font-family: 'Subtitulos'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('/Dary/css/Gyahegi.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
 @font-face {
     font-family: 'boton'; /* Cambia esto por el nombre que desees para la fuente */
-    src: url('Elegante\ Classica.ttf') format('truetype'); /* Cambia el nombre del archivo */
+    src: url('/Dary/css/Elegante\ Classica.ttf') format('truetype'); /* Cambia el nombre del archivo */
     font-weight: normal; /* O puede ser bold, si es el caso */
     font-style: normal; /* O italic, si es el caso */
 }
@@ -31,7 +31,7 @@ body {
 
 /* Header */
 header {
-    background: url('pexels-reshma-chowdhury-7193-41859.jpg') no-repeat center center;
+    background: url('/Dary/img/pexels-reshma-chowdhury-7193-41859.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     height: 60vh;
