@@ -167,7 +167,7 @@ body {
 .wave {
     width: 100%; 
     height: 100%; 
-    background: url('/Dary/css/wave.svg') no-repeat center; /* Asegúrate de reemplazar esto por tu propio SVG de onda */
+    background: url('http://www.w3.org/2000/svg') no-repeat center; /* Asegúrate de reemplazar esto por tu propio SVG de onda */
     background-size: cover; /* Ajusta el tamaño del fondo */
 }
 
