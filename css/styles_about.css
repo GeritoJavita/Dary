@@ -160,7 +160,6 @@ body {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
 }
 /* Ajustes para pantallas pequeñas */
-
 @media (max-width: 768px) {
     /* Título principal de la sección */
     #about h2 {
