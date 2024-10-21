@@ -159,6 +159,34 @@ body {
 .bg-sobre-nosotros {
     background-color: #e9e6e6; /* Cambia este color por el que prefieras */
 }
+footer {
+    background-color: #f7f7f7; /* Color de fondo del footer */
+    padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+.carousel-inner img {
+    max-height: 300px; /* Altura máxima para las imágenes del carrusel */
+    object-fit: cover; /* Asegura que las imágenes se ajusten bien */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espaciado interno */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #df356d; /* Color de los controles */
+    border-radius: 50%; /* Hacerlos circulares */
+}
+
+.text-center p {
+    margin: 0; /* Eliminar margen */
+    color: #555; /* Color del texto de copyright */
+    font-size: 0.9rem; /* Tamaño de texto */
+}
+
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
     /* Título principal de la sección */
