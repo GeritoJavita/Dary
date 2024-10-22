@@ -211,7 +211,10 @@ footer a {
     margin: 0 10px;
     
 }
-
+footer p{
+    font-family: 'Open Sans';
+    font-style: italic;
+}
 footer a img {
     transition: transform 0.2s;
 }
