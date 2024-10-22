@@ -261,7 +261,30 @@ footer a img:hover {
     border-radius: 10px; /* Bordes redondeados para las imágenes */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de relieve */
 }
+/* Estilo del botón sticky */
+#instagram-button {
+    position: fixed; /* Hace que el botón esté siempre en la misma posición al hacer scroll */
+    bottom: 20px;    /* Alineado en la parte inferior de la ventana, puedes ajustar el valor */
+    right: 20px;     /* Alineado en el lado derecho de la ventana, puedes ajustar el valor */
+    z-index: 1000;   /* Asegúrate de que esté siempre encima de otros elementos */
+    background-color: #df356d; /* Color de fondo de Instagram */
+    border-radius: 60%; /* Hace que el botón sea circular */
+    padding: 15px; /* Espacio dentro del botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Añade una pequeña sombra para resaltarlo */
+    transition: transform 0.3s ease; /* Transición suave para el hover */
+}
 
+/* Estilo del ícono */
+#instagram-button i {
+    color: white; /* Color del ícono */
+    font-size: 24px; /* Tamaño del ícono */
+}
+
+/* Efecto hover */
+#instagram-button:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    background-color: #C13584; /* Cambia el color del fondo al hacer hover */
+}
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 576px) {
     #titulo {
