@@ -204,6 +204,8 @@ padding-bottom: 40px;
 
 /* Footer Styling */
 footer {
+    background: url('/Dary/img/portada2.png') no-repeat center center;
+    background-size: cover;
     background-color: #a5b589;/* Color suave para el footer */
 }
 
