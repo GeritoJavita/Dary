@@ -65,13 +65,14 @@ header p {
 }
 
 .navbar{
-    background-color: #c3c6d6;
+    background-color: #101010;
 }
+
 /* Personalización de la navbar */
 .navbar .navbar-brand {
     font-family: 'Open sans'; /* Usar la fuente personalizada que ya tienes */
     font-size: 1.5rem;
-    color: #333; /* Color del logotipo */
+    color: white; /* Color del logotipo */
 }
 
 .navbar .nav-link {
