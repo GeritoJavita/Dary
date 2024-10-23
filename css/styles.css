@@ -16,6 +16,35 @@ header {
     color: #333;
     padding: 2rem 0;
 }
+/* Imagen del 'Sobre Nosotros' */
+#imagen-descrip {
+    width: 400px; /* Ajusta el tamaño de la imagen */
+    height: 400px; /* Asegura que la imagen sea circular */
+    border: 5px solid #cccccc; /* Añade un borde alrededor de la imagen */
+    object-fit: cover; /* Mantiene el contenido centrado en el círculo */
+    margin: 0 auto 10px auto; /* Centra la imagen y agrega margen inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+
+/* Título principal de la sección */
+#descripcion h2 {
+    font-family: 'Subtitulos';
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2.5rem; /* Ajusta el tamaño del texto */
+    color: #333333; /* Color del texto */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+/* Títulos de las subsecciones */
+#descripcion h3 {
+    font-family: 'Subtitulos';
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: #555555; /* Color más suave para los subtítulos */
+    letter-spacing: 1.5px;
+}
 
 header h1 {
     font-size: 2.5rem;
