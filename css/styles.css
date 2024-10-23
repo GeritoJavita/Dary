@@ -30,7 +30,7 @@ header {
     height: 524px; /* Asegura que la imagen sea circular */
 
      margin: 0 auto 10px auto; /* Centra la imagen y agrega margen inferior */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
+   
 }
 
 /* Título principal de la sección */
