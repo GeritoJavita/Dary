@@ -120,9 +120,14 @@ header p {
 .card-body {
     padding: 1.5rem;
 }
-
+footer p{
+    font-family: 'Open Sans';
+    background-color: white;
+    font-style: italic;
+    font-size: 18px;
+}
 footer {
-    background-color: #fce4ec;
+    background-color: #101010;
     padding: 1.5rem 0;
     text-align: center;
 }
