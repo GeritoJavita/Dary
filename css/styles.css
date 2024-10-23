@@ -74,8 +74,8 @@ header p {
     font-size: 1.5rem;
     color: white; /* Color del logotipo */
 }
-.navbar a{
-    color: white; 
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
 }
 .navbar .nav-link {
     font-size: 1.1rem;
