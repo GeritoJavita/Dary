@@ -28,22 +28,27 @@ header p {
     color: #666;
 }
 
-.navbar-light .navbar-brand {
-    color: #ff6f61;
-    font-weight: bold;
+.navbar{
+    background-color: #c3c6d6;
+}
+/* Personalización de la navbar */
+.navbar .navbar-brand {
+    font-family: 'Open sans'; /* Usar la fuente personalizada que ya tienes */
     font-size: 1.5rem;
+    color: #333; /* Color del logotipo */
 }
 
-.navbar-light .nav-link {
-    color: #ffab91;
-    font-weight: 500;
-    transition: color 0.3s ease;
+.navbar .nav-link {
+    font-size: 1.1rem;
+    color: #333; /* Color de los enlaces */
+    padding-right: 20px;
+    transition: color 0.3s ease; /* Suavizar el cambio de color al hacer hover */
 }
 
-.nav-link:hover {
-    color: #ff7043;
+/* Efecto hover en los enlaces */
+.navbar .nav-link:hover {
+    color: #E1306C; /* Cambiar el color al pasar el cursor por encima (ej. color de Instagram) */
 }
-
 #catalogo h2, #about h2, #contacto h2 {
     color: #ffb6b9;
     font-size: 2rem;
