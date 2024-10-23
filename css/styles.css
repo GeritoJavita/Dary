@@ -74,17 +74,19 @@ header p {
     font-size: 1.5rem;
     color: white; /* Color del logotipo */
 }
-
+.navbar a{
+    color: white; 
+}
 .navbar .nav-link {
     font-size: 1.1rem;
-    color: #333; /* Color de los enlaces */
+   
     padding-right: 20px;
     transition: color 0.3s ease; /* Suavizar el cambio de color al hacer hover */
 }
 
 /* Efecto hover en los enlaces */
 .navbar .nav-link:hover {
-    color: #E1306C; /* Cambiar el color al pasar el cursor por encima (ej. color de Instagram) */
+    color: #c5aaaa; /* Cambiar el color al pasar el cursor por encima (ej. color de Instagram) */
 }
 #catalogo h2, #about h2, #contacto h2 {
     color: #ffb6b9;
