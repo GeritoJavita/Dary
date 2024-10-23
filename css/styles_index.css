@@ -31,6 +31,7 @@ body {
 
 /* Header */
 header {
+    background: url('/Dary/img/portada2.png') no-repeat center center;
     
     background-size: cover;
     color: white;
