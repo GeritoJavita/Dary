@@ -20,8 +20,8 @@ h1, h2, h5, p {
 }
 
 header {
-   
-    color: #333;
+   background-color: #101010;
+    color: #ffffff;
     padding: 2rem 0;
 }
 /* Imagen del 'Sobre Nosotros' */
@@ -44,8 +44,8 @@ header {
 }
 
 /* Títulos de las subsecciones */
-#descripcion h3 {
-    font-family: 'Subtitulos';
+#descripcion  {
+    font-family: 'Open Sans';
     text-align: center;
     padding-bottom: 30px;
     font-size: 2rem;
