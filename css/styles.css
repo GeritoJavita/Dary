@@ -40,7 +40,7 @@ header {
     z-index: 10;
     width: 50px;
     height: 50px;
-    background-color: #ffffff;
+    background-color: #c9c6c6;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ header {
 
 /* Estilo del texto dentro del botón */
 .slide-button {
-    color: #000;
+    color: #000000;
     text-decoration: none;
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
