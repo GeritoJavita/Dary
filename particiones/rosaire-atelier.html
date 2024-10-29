@@ -26,11 +26,44 @@
         }
         #descripcion h2{
            font-size: 22px; 
+           padding-top: 40px;
         }
         #descripcion p{
             font-size: 19px;
       
         }
+        .header-basic {
+    background: linear-gradient(135deg, white, #ffffff); /* Fondo degradado místico */
+    color: #333;
+    padding: 4rem 0;
+    border-bottom: 5px solid #ffff; /* Línea inferior con color místico */
+}
+
+/* Título principal */
+.header-basic h1 {
+    font-size: 3rem; /* Tamaño mayor para destacar */
+    font-family: 'Cinzel', serif; /* Tipografía clásica y mística */
+    color: black; /* Color púrpura profundo para representar misticismo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave para efecto de profundidad */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición al pasar el mouse */
+    margin-bottom: 1rem;
+}
+
+/* Efecto hover en el título */
+.header-basic h1:hover {
+    transform: scale(1.1); /* Crece ligeramente al pasar el mouse */
+    color: #000000; /* Cambio de color más oscuro al hacer hover */
+}
+
+/* Subtítulo */
+.header-basic p {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif; /* Complemento moderno para el subtítulo */
+    color: #555;
+    margin-top: 0.5rem;
+    letter-spacing: 1px; /* Espaciado para un look más limpio */
+}
+
     </style>
      <!-- Botón de Instagram flotante -->
      <div id="instagram-button">
@@ -59,7 +92,7 @@
         </div>
     </nav>
     <!-- Header -->
-    <header class="bg-light text-center py-5">
+    <header class="header-basic text-center py-5">
         <h1 class="display-4">Cozy</h1>
         <p class="lead">Elegancia y minimalismo para el día a día</p>
     </header>
