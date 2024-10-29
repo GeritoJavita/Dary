@@ -85,7 +85,7 @@ header p {
 
 /* Efecto hover en los enlaces */
 .navbar .nav-link:hover {
-    color: #c5aaaa; /* Cambiar el color al pasar el cursor por encima (ej. color de Instagram) */
+    color: white; /* Cambiar el color al pasar el cursor por encima (ej. color de Instagram) */
 }
 #catalogo h2, #about h2, #contacto h2 {
     color: #ffb6b9;
