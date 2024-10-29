@@ -138,59 +138,25 @@
 .side-button:hover .slide-button {
     opacity: 1;
 }
+/* Ajustes para pantallas más pequeñas (tablets y móviles) */
 @media (max-width: 768px) {
     .main-image {
-        height: 70vh;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-
-    .productos h2 {
-        font-size: 1.5rem;
-        padding: 30px;
-    }
-
-    #descripcion h2 {
-        font-size: 2rem;
-    }
-
-    #descripcion p {
-        font-size: 1.2rem;
+        background-position: top center;
+        background-size: cover;
+        height: 70vh; /* Reduce el alto en pantallas pequeñas */
+        opacity: 0.4; /* Aumenta la claridad del contenido */
     }
 }
 
-/* Media Queries para pantallas muy pequeñas (móviles) */
+/* Ajustes específicos para pantallas muy pequeñas (móviles) */
 @media (max-width: 480px) {
     .main-image {
-        height: 50vh;
+        background-position: center top; /* Focaliza la parte superior de la imagen */
+        background-size: contain; /* Evita recortes raros en la imagen */
+        height: 50vh; /* Reduce aún más el tamaño para móviles */
+        opacity: 0.3; /* Reduce la opacidad para que el contenido sea más visible */
     }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    header p {
-        font-size: 0.9rem;
-    }
-
-    .productos h2 {
-        font-size: 1.2rem;
-        padding: 20px;
-    }
-
-    #descripcion h2 {
-        font-size: 1.5rem;
-    }
-
-    #descripcion p {
-        font-size: 1rem;
-    }
+    
 }
 
 </style>
