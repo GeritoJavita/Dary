@@ -89,55 +89,7 @@
         color: #cccccc;
         padding-top: 5%;
     }
-    .side-button {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    width: 50px;
-    height: 50px;
-    background-color: #c9c6c6;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: width 0.3s ease-in-out;
-    overflow: hidden;
-    cursor: pointer;
-}
 
-/* Estilo para el lado izquierdo */
-.left-side-button {
-    left: 0;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
-
-/* Estilo para el lado derecho */
-.right-side-button {
-    right: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-/* Estilo del texto dentro del botón */
-.slide-button {
-    color: #000000;
-    text-decoration: none;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 14px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* Animación cuando se pasa el mouse sobre el botón */
-.side-button:hover {
-    width: 150px;
-}
-
-.side-button:hover .slide-button {
-    opacity: 1;
-}
 /* Ajustes para pantallas más pequeñas (tablets y móviles) */
 @media (max-width: 768px) {
     .main-image {
@@ -167,13 +119,7 @@
     </a>
 </div>
 <body>
-       <!-- Botones laterales -->
-       <div class="side-button left-side-button">
-        <a href="/Dary/particiones/stardew-valley.html" class="slide-button">Stardew Valley</a>
-        </div>
-        <div class="side-button right-side-button">
-        <a href="/Dary/particiones/studio-ghibli.html" class="slide-button">Studio Ghibli</a>
-        </div>
+      
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <!-- Logotipo -->

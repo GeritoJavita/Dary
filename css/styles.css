@@ -157,7 +157,7 @@ button, .btn-primary {
 }
 
 button:hover, .btn-primary:hover {
-    background-color: #ff7043;
+    background-color: #cdcdcd00;
     transform: scale(1.05);
 }
 /* Estilo del botón sticky */

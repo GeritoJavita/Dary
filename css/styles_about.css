@@ -225,6 +225,7 @@ footer p {
     /* Botón de Instagram */
     #instagram-button {
         padding: 10px; /* Ajusta el tamaño del botón en móviles */
+        border-radius: 50%
     }
     .carousel-inner img {
         height: 390px; /* Altura máxima para imágenes en móviles */
