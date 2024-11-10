@@ -147,7 +147,7 @@ footer a:hover {
 }
 
 button, .btn-primary {
-    background-color: #ff8a65;
+    background-color: #a5b589;
     border: none;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -157,7 +157,7 @@ button, .btn-primary {
 }
 
 button:hover, .btn-primary:hover {
-    background-color: #cdcdcd00;
+    background-color: #e9f7ef;
     transform: scale(1.05);
 }
 /* Estilo del botón sticky */
@@ -178,13 +178,30 @@ button:hover, .btn-primary:hover {
     color: white; /* Color del ícono */
     font-size: 24px; /* Tamaño del ícono */
 }
+.metodos-pago{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
 
+}
+.metodos-pago img{
+    width: 10%;
+    height: auto;
+    margin: 0 10px;
+}
 /* Efecto hover */
 #instagram-button:hover {
     transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón */
     background-color: #C13584; /* Cambia el color del fondo al hacer hover */
 }
 @media (max-width: 768px) {
+    .metodos-pago img{
+        width: 15%;
+        height: auto;
+        margin: 0 10px;
+    }
     header h1 {
         font-size: 2rem;
     }
